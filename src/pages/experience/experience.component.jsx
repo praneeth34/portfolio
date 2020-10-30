@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import Card from "react-bootstrap/Card";
-import L_ACCENTURE from "../../assets/img/experience/accenture-3.svg";
+import L_TRIMBLE from "../../assets/img/experience/trimble-inc-vector-logo.svg";
 import Tilt from "react-tilt";
 import "./experience.styles.css";
 
@@ -15,31 +15,30 @@ const Experience = () => {
           <Tilt options={{ max: 25 }}>
             <Card>
               <Card.Header as="h5" className="d-flex justify-content-center flex-wrap">
-                <Card.Img variant="top" className="img-resize" src={L_ACCENTURE} alt="Accenture logo" />
+                <Card.Img variant="top" className="img-resize" src={L_TRIMBLE} alt="Trimble logo" />
               </Card.Header>
               <Card.Body className="d-flex justify-content-center flex-column">
                 <div>
-                  <Card.Title className="text-center">Associate Software Engineer</Card.Title>
+                  <Card.Title className="text-center">GIS Analyst</Card.Title>
                 </div>
                 <div>
                   <Card.Text className="text-center style">
                     <strong className="body-title-style ">Full Stack Developer</strong>
                     <br />
-                    <strong>Technology:</strong> React JS, DOTNET, C#, MS-SQL, Python
+                    <strong>Technology:</strong> QGIS, MySQL
                     <br />
-                    <strong>Duration:</strong> June 2019 - Present
+                    <strong>Duration:</strong> June 2018 - Present
                     <br/>
                     <strong> Description </strong>
                     <ul className="text-left">
-                      <li><strong>Developed &amp; enhanced</strong> multiple features with customizability option across web application.</li>
-                      <li><strong>Developed</strong> automation system to create SQL bulk query scripts that 
-                        increased efficiency by 80% and decreased working hours from 4 hours to 30 mins per task.
+                      <li><strong>Responsible</strong> for updation of Trimble Maps in a cooperative environment, through inundation conflation in QGIS with help of trimble plugins.</li>
+                      <li><strong>Actively involved</strong> in dividing the work among the team. </li>
+                      <li><strong>Identifying &amp; tracking</strong> bugs and defects, and reporting
+issues to plugin developers.
                       </li>
-                      <li><strong>Provided</strong> application maintenance while working as `Production Support`. 
-                      </li>
-                      <li><strong>Performed</strong> CRUD operations on multiple databases to load/ remove data according 
-                      to the business requirements.</li>
-                      {/* <li><strong>Co-created</strong> React Document used as a guide for new developers.</li> */}
+                      <li><strong>Reviewing</strong> user requirement and working on High priority
+project for delivery on time.</li>
+                      
 
                     </ul>
                     

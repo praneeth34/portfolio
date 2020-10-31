@@ -2,13 +2,14 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_ReactToDoList from "../../assets/img/projects/to-do_list.PNG";
+import L_LoginAndAuth from "../../assets/img/projects/login.PNG";
+import L_Calculator from "../../assets/img/projects/calculator.PNG";
+import L_Chess from "../../assets/img/projects/chess.PNG";
+import L_HangmanGame from "../../assets/img/projects/hangman_game.PNG";
+import L_Minesweeper from "../../assets/img/projects/minesweeper.PNG";
+import L_NewyorkTimesNewspaper from "../../assets/img/projects/newyork_times_enewspaper.PNG";
+import L_TicTacToe from "../../assets/img/projects/tic-tac-toe.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -16,17 +17,16 @@ import Card from "react-bootstrap/Card";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+import L_HEROKU from "../../assets/img/skills/heroku.svg";
+import L_JWT from "../../assets/img/skills/jwtio-json-web-token.svg";
+import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -37,9 +37,87 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+          {/* Project: Tic-Tac-Toe  */}
+        <ImageEvent
+            date="27/10/2020"
+            className="text-center"
+            text="TicTacToe"
+            src={L_TicTacToe}
+            alt="Tic-Tac-Toe"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a simple Tic-Tac-Toe game where user can trace back on there everystep and have a fun time with any one.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>This game is designed with hooks concept</li>
+                          <li>Styled with basic react-bootstrap</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NODE_JS}
+                                alt="Node.js"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Node.js
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://cocky-gates-f7b57e.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/tic-tac-toe"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
         {/* Project: Todo List With MUI */}
         <ImageEvent
-            date="01/10/2020"
+            date="29/09/2020"
             className="text-center"
             text="React ToDo App"
             src={L_ReactToDoList}
@@ -65,7 +143,7 @@ const TimeLine = () => {
                         <ul className="list-styles pt-1">
                           <li>Keeps track of your Todos</li>
                           <li>Powered by React and Material UI</li>
-                          <li>Respoisive Design</li>
+                          <li>Responsive Design</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -123,35 +201,28 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
+                  href="https://dreamy-lamarr-7186bd.netlify.app/"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
+                  href="https://github.com/praneeth34/react-to-do-list"
                   target="_blank"
                 >
                   SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
-
-{/* Project: MERN Tip Calculator */}
-<ImageEvent
-            date="16/09/2020"
+        {/* Project: Login and authentication */}
+        <ImageEvent
+            date="26/09/2020"
             className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
+            text="loginAndAuth"
+            src={L_LoginAndAuth}
+            alt="LoginAndAuth"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -167,40 +238,18 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
+                        <strong>Description:</strong> This is a simple login page which directs to a dashboard upon email verification.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
-                          <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
+                          <li>User's passwords are stored with JWT</li>
+                          <li>Verification Emails are sent using nodemailer</li>
+                          <li>Server is hosted using herokuapp</li>
+                          <li>Once logged in User data is stored using mongodb which helps for easy login and maintain log still user logs out</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
                         <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
                           <li>
                             <span className="p-2">
                               <Image
@@ -210,6 +259,17 @@ const TimeLine = () => {
                                 className="image-style1 m-1"
                               ></Image>{" "}
                               Express
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JWT}
+                                alt="JWT"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JSON Web Token
                             </span>
                           </li>
                           <li>
@@ -220,20 +280,122 @@ const TimeLine = () => {
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              MongoDB
+                              mongoDB
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MATERIALUI}
+                                src={L_HEROKU}
+                                alt="Heroku-app"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Heroku
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://login-auth1.herokuapp.com/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/login_auth"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
+        {/* Project: Hangman Game */}
+        <ImageEvent
+            date="24/08/2020"
+            className="text-center"
+            text="Hangman Game"
+            src={L_HangmanGame}
+            alt="Hangman Game"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a simple hangman game with 6 questions. In future implementation planning to add levels to the game
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Plain Javascript logic</li>
+                          <li>Hosted using Netlify</li>
+                          <li>Bootstrap for styling</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_BOOTSTRAP4}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
                                 alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Material-UI
+                              Javascript
                             </span>
                           </li>
+                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -242,28 +404,28 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
+                  href="https://loving-newton-419872.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/hangman_game"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
               </div>
             </div>
           </ImageEvent>
-
-          {/* Project: Get GitHub Info */}
-          <ImageEvent
-            date="19/07/2020"
+          
+        {/* Project: Newyork Times E- Newspaper */}
+        <ImageEvent
+            date="22/08/2020"
             className="text-center"
-            text="Get GitHub Info"
-            src={L_GetGitHubInfo}
-            alt="Get GitHub Info"
+            text="New York Times E-Newspaper"
+            src={L_NewyorkTimesNewspaper}
+            alt="NewYorkTimesNewspaper"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -279,14 +441,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that searches
-                        people on GitHub with non-private account and see all
-                        their details using GitHub API
+                        <strong>Description:</strong> This is a simple New York Times Newspaper with api fetching the latest news data.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Search any Github profile</li>
-                          <li>Real-time API calls</li>
+                          <li>Data is fetched from New york times api using async function which makes each category load sepreately.</li>
+                          <li>Responsive App Designed using Bootstrap.                          </li>
+                          <li>ES6 and html used to develop website</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -295,285 +456,44 @@ const TimeLine = () => {
                             <span className="p-2">
                               <Image
                                 src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
+                                alt="HTML"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="Github API"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GitHub API
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/getGithubInfo/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/getGithubInfo"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=K3h95l2YxmY&feature=youtu.be"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Smart Brain */}
-          <ImageEvent
-            date="21/01/2020"
-            className="text-center"
-            text="Smart Brain Face Detect app"
-            src={L_SmartBrain}
-            alt="Smart Brain Face Detect"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> An app that detects face
-                        in a picture.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Register new user</li>
-                          <li>Signin exiting user</li>
-                          <li>Keep tracks of entries for each user</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_EXPRESS}
-                                alt="Express"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Express
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              PostgreSQL
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                        <em>
-                          <strong>SignUp/ Signin:</strong>
-                          <br />
-                          <br />
-                          You can <strong>register</strong> as new user or{" "}
-                          <strong>log in</strong> using the demo account below.
-                          <br />
-                          <br />
-                          <strong>Demo Account Details:</strong>
-                          <br />
-                          email: demo@demo.com
-                          <br />
-                          password: demo
-                        </em>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://smart-face-detect-app.herokuapp.com/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Smart_Brain"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.youtube.com/watch?v=ZZYSpi_blL0"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: RoboFriends */}
-
-          <ImageEvent
-            date="14/01/2020"
-            className="text-center"
-            text="RoboFriends"
-            src={L_RoboFriends}
-            alt="Robo Friends"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> An app that allows to
-                        search through robots fetched in real-time with users.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Search through Robots</li>
-                          <li>Users and Robots being fetched via API call</li>
-                          <li>Usage of Redux store</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
+                              HTML
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
+                                alt="Bootstrap"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
+                              BootStrap
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REDUX}
-                                alt="Redux"
+                                src={L_CSS3}
+                                alt="CSS"
                                 rounded
-                                className="image-style m-1"
+                                className="image-style1 m-1"
                               ></Image>{" "}
-                              Redux
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
                             </span>
                           </li>
                         </ul>
@@ -583,30 +503,30 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/RoboFriends/"
+              <UrlButton
+                  href="https://adoring-ride-44d8f9.netlify.app"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/akjha96/RoboFriends"
+                  href="https://github.com/praneeth34/newyork-times-api"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
+                
               </div>
             </div>
           </ImageEvent>
 
-          {/* Project: Product_Hunt_Clone */}
-
-          <ImageEvent
-            date="15/12/2019"
+        {/* Project: Minesweeper */}
+        <ImageEvent
+            date="21/08/2020"
             className="text-center"
-            text="Product Hunt Clone"
-            src={L_ProductHuntClone}
-            alt="Product Hunt Clone"
+            text="Minesweeper Game"
+            src={L_Minesweeper}
+            alt="Minesweeper Game"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -622,17 +542,13 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This website is a clone of
-                        Product Hunt built using Django.
+                        <strong>Description:</strong> This is a simple Minesweeper game with 3 modes i.e., easy, medium and hard, presently easy is completely functional and for future development will be updating them.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Register as new user</li>
-                          <li>Signin as existing user</li>
-                          <li>Raise a Product for people to see and Vote</li>
-                          <li>Delete a product</li>
-                          <li>Like and Dislike a product</li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>Plain Javascript logic</li>
+                          <li>Hosted using Netlify</li>
+                          <li>CSS for styling</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -662,36 +578,15 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                src={L_JAVASCRIPT}
+                                alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              Javascript
                             </span>
                           </li>
+                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -700,7 +595,13 @@ const TimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/akjha96/product_hunt_clone"
+                  href="https://stupefied-kilby-2fbd22.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/minesweeper"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -709,13 +610,13 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Portfolio using Django */}
-          <ImageEvent
-            date="07/12/2019"
+        {/* Project: Chess */}
+        <ImageEvent
+            date="16/08/2020"
             className="text-center"
-            text="Portfolio using Django"
-            src={L_PortfolioUsingDjango}
-            alt="Portfolio using Django"
+            text="Chess"
+            src={L_Chess}
+            alt="Chess"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -731,18 +632,102 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is my first portfolio
-                        website built using Django.
+                        <strong>Description:</strong> This is a Chess Game with single-player and two-player options.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Send emails</li>
-                          <li>View my projects</li>
-                          <li>Write a blog</li>
+                          <li>Two-player is simple with basic chess rules.</li>
+                          <li>Single-player use min-max algorithm that makes computer to play its moves which can have different levels from 1-5 to increase the number of possible moves by computer.</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
                           <li>
-                            Hosted using Digital ocean under www.akjfun.com
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              HTML
+                            </span>
                           </li>
-                          <li>Fully funtional Administration panel</li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_JAVASCRIPT}
+                                alt="JavaScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              JavaScript
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+              <UrlButton
+                  href="https://zen-praneeth-8b09ed.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/Chess"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                
+              </div>
+            </div>
+          </ImageEvent>
+
+        {/* Project: Calculator */}
+        <ImageEvent
+            date="10/08/2020"
+            className="text-center"
+            text="Simple Calculator"
+            src={L_Calculator}
+            alt="Calculator"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a simple Calculator with basic functionality.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Plain Javascript logic</li>
+                          <li>Hosted using Netlify</li>
+                          <li>CSS for styling</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -772,73 +757,38 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DJANGO}
-                                alt="Django"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Django
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_POSTGRESQL}
-                                alt="PostgreSQL"
+                                src={L_JAVASCRIPT}
+                                alt="Material-UI"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              PostgreSQL
+                              Javascript
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_DIGITAL_OCEAN}
-                                alt="Digital Ocean"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Digital-Ocean
-                            </span>
-                          </li>
+                          
                         </ul>
-                        <hr />
-                        <em>
-                          <strong>View Demo Video:</strong>
-                          <br />
-                          <br />
-                          If you are reading this, that means I have updated my
-                          Portfolio website to recent one.
-                          <br />
-                          You can still see a video of my old portfolio by
-                          clicking on the button below.
-                          <br />
-                          <br />
-                        </em>
                       </Card.Body>
                     </Accordion.Collapse>
                   </Card>
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://youtu.be/PCwEuW4OmWA" target="_blank">
-                  WATCH VIDEO
+                <UrlButton
+                  href="https://brave-bohr-21f790.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/Calculator"
+                  target="_blank"
+                >
+                  SOURCE CODE
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
+
         </Events>
       </Timeline>
     </div>

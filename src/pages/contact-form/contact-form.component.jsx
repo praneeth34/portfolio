@@ -36,7 +36,7 @@ const ContactForm = () => {
             </div>
             <div className="m-2">
               <a href="tel:7500371924" target="_blank" rel="noopener noreferrer">
-                <Button id="call-btn" variant="outline-primary" title="Call or Whatsapp me!">
+                <Button id="call-btn" variant="outline-success" title="Call or Whatsapp me!">
                 <i class="fab fa-whatsapp"></i> Phone
                 </Button>
               </a>

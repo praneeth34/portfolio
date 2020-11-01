@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.e3bfae21.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e3bfae21.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.9f8c4a45.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9f8c4a45.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.0f3abe12.chunk.js": "/portfolio/static/js/2.0f3abe12.chunk.js",
@@ -38,7 +38,7 @@
     "static/media/react-router.a87b7227.svg": "/portfolio/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
-    "static/media/sign.f1a7c5d8.jpg": "/portfolio/static/media/sign.f1a7c5d8.jpg",
+    "static/media/sign.bf69343a.jpg": "/portfolio/static/media/sign.bf69343a.jpg",
     "static/media/slide1.14619b04.webp": "/portfolio/static/media/slide1.14619b04.webp",
     "static/media/slide2.d58e7971.webp": "/portfolio/static/media/slide2.d58e7971.webp",
     "static/media/slide3.ea32b5ab.webp": "/portfolio/static/media/slide3.ea32b5ab.webp",
@@ -52,6 +52,6 @@
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.0f3abe12.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.e3bfae21.chunk.js"
+    "static/js/main.9f8c4a45.chunk.js"
   ]
 }

@@ -22,14 +22,12 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded">
                 Hi there! I am <strong>&nbsp;Praneeth Palli</strong>
-                <br />A passionate programmer, born and brought up in India. I am a Full Stack Web Developer with React.js, Redux, Node.js, and MongoDB as my tech stack.
+                <br />A passionate programmer, born and brought up in India. I am GeoInformatic graduate aiming to be a Full Stack Web Developer.I have expertised with React.js, Redux, Node.js, JavaScript, HTML, CSS, MongoDB and AWS.
                 <br />
-                In 2018, I successfully completed my Engineering with specialization in 'Geo-Informatics', due to which i have an additonal expertise in GIS.
+                Since my college days always been a keen enthusiastic for learning something new. This intent desire led me towards learning PhotoShop and Android app development which makes me spend my free time in a productive way.
                 <br />
-                I very curious about new technologies and passinate in learning about them.
-                <br />
-                I like developing mobile applications since my college in my free time.
-                <br />I love to meet new people, travel, gaming and edit pictures in photoshop as a hobby. 
+                I have always been very active at social event as a organiser, and worked with NGOs and Student chapters as IT lead.
+                <br />I love travelling, gaming and cooking as a hobby. 
                 <br /> <br />
                 <Col className="d-flex justify-content-center flex-wrap">
                   <div>

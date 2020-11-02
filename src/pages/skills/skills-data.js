@@ -18,6 +18,7 @@ import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
 import L_AWS from "../../assets/img/skills/aws.svg";
 import L_QGIS from "../../assets/img/skills/qgis-icon.svg";
 import L_ARCGIS from "../../assets/img/skills/Esri-logo-vector-01.svg";
+import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 
 export const skills = {
   frontend: [
@@ -110,6 +111,12 @@ export const skills = {
         imgAltText: "Amazon Web Services",
         imgSrc: L_AWS,
         skillName: "AWS",
+      },
+      {
+        link: "https://pages.github.com/",
+        imgAltText: "GitHub Pages",
+        imgSrc: L_GITHUB_PAGES,
+        skillName: "GitHub Pages",
       },
   ],
   programmingLanguages: [

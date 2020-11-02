@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.afca5765.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.afca5765.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a3b385cc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a3b385cc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.0f3abe12.chunk.js": "/portfolio/static/js/2.0f3abe12.chunk.js",
@@ -23,6 +23,7 @@
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
     "static/media/express.75fff9be.svg": "/portfolio/static/media/express.75fff9be.svg",
     "static/media/git-icon.c60b7e5a.svg": "/portfolio/static/media/git-icon.c60b7e5a.svg",
+    "static/media/github.740db6be.svg": "/portfolio/static/media/github.740db6be.svg",
     "static/media/hangman_game.7ecbf7b3.PNG": "/portfolio/static/media/hangman_game.7ecbf7b3.PNG",
     "static/media/heroku.73be03b3.svg": "/portfolio/static/media/heroku.73be03b3.svg",
     "static/media/html-5.821ba738.svg": "/portfolio/static/media/html-5.821ba738.svg",
@@ -52,6 +53,6 @@
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.0f3abe12.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.afca5765.chunk.js"
+    "static/js/main.a3b385cc.chunk.js"
   ]
 }

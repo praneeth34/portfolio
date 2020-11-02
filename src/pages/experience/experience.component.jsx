@@ -23,8 +23,6 @@ const Experience = () => {
                 </div>
                 <div>
                   <Card.Text className="text-center style">
-                    <strong className="body-title-style ">Full Stack Developer</strong>
-                    <br />
                     <strong>Technology:</strong> QGIS, MySQL
                     <br />
                     <strong>Duration:</strong> June 2018 - Present

@@ -10,6 +10,8 @@ import L_HangmanGame from "../../assets/img/projects/hangman_game.PNG";
 import L_Minesweeper from "../../assets/img/projects/minesweeper.PNG";
 import L_NewyorkTimesNewspaper from "../../assets/img/projects/newyork_times_enewspaper.PNG";
 import L_TicTacToe from "../../assets/img/projects/tic-tac-toe.PNG";
+import L_Portfolio from "../../assets/img/projects/portfolio.PNG";
+import L_WeatherApp from "../../assets/img/projects/weather_app.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -26,6 +28,9 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_JWT from "../../assets/img/skills/jwtio-json-web-token.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
+import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
+import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -36,6 +41,210 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+
+        {/* Project: React Weather App */}
+        <ImageEvent
+            date="3/11/2020"
+            className="text-center"
+            text="React Weather App"
+            src={L_WeatherApp}
+            alt="React Weather App"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Weather app using openweather api, which tells live weather data of any city we search for across world
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Detailed information with current date and temperature</li>
+                          <li>Fetch Data from openweather API</li>
+                          <li>Powered by React</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                                                    
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://compassionate-hodgkin-c935bf.netlify.app"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/weather-app"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+        {/* Project: Portfolio using React */}
+        <ImageEvent
+            date="1/11/2020"
+            className="text-center"
+            text="React Portfolio"
+            src={L_Portfolio}
+            alt="React Porfolio"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Portfolio created using react which showcases part of me digitally
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Detailed information with live projects</li>
+                          <li>Powered by React and React-bootstrap</li>
+                          <li>Hosted using Github pages</li>
+                          <li>Responsive Design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_BOOTSTRAP}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React Bootstrap
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_STYLED_COMPONENTS}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              Styled Components
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_GITHUB_PAGES}
+                                alt="Material-UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              GitHub Pages
+                            </span>
+                          </li>
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://praneeth34.github.io/portfolio"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/portfolio"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Tic-Tac-Toe  */}
         <ImageEvent
             date="27/10/2020"

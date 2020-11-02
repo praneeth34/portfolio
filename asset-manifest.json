@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.a3b385cc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a3b385cc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.059e5bfc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.059e5bfc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
-    "static/js/2.0f3abe12.chunk.js": "/portfolio/static/js/2.0f3abe12.chunk.js",
-    "static/js/2.0f3abe12.chunk.js.map": "/portfolio/static/js/2.0f3abe12.chunk.js.map",
+    "static/js/2.d912b729.chunk.js": "/portfolio/static/js/2.d912b729.chunk.js",
+    "static/js/2.d912b729.chunk.js.map": "/portfolio/static/js/2.d912b729.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.9253c6c4.chunk.css.map": "/portfolio/static/css/main.9253c6c4.chunk.css.map",
-    "static/js/2.0f3abe12.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0f3abe12.chunk.js.LICENSE.txt",
+    "static/js/2.d912b729.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d912b729.chunk.js.LICENSE.txt",
     "static/media/1.ae8ebf5a.jpg": "/portfolio/static/media/1.ae8ebf5a.jpg",
     "static/media/4.2541860e.jpg": "/portfolio/static/media/4.2541860e.jpg",
     "static/media/7.c45a9bbf.jpg": "/portfolio/static/media/7.c45a9bbf.jpg",
@@ -36,6 +36,7 @@
     "static/media/mysql.822ba7d7.svg": "/portfolio/static/media/mysql.822ba7d7.svg",
     "static/media/newyork_times_enewspaper.aeb0fb38.PNG": "/portfolio/static/media/newyork_times_enewspaper.aeb0fb38.PNG",
     "static/media/nodejs.52cbf9a8.svg": "/portfolio/static/media/nodejs.52cbf9a8.svg",
+    "static/media/portfolio.774ee61d.PNG": "/portfolio/static/media/portfolio.774ee61d.PNG",
     "static/media/profile.0240520b.jpg": "/portfolio/static/media/profile.0240520b.jpg",
     "static/media/qgis-icon.b932dc0b.svg": "/portfolio/static/media/qgis-icon.b932dc0b.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
@@ -47,12 +48,13 @@
     "static/media/tic-tac-toe.52ee5396.PNG": "/portfolio/static/media/tic-tac-toe.52ee5396.PNG",
     "static/media/to-do_list.6b2a85d0.PNG": "/portfolio/static/media/to-do_list.6b2a85d0.PNG",
     "static/media/trimble-inc-vector-logo.925ed581.svg": "/portfolio/static/media/trimble-inc-vector-logo.925ed581.svg",
-    "static/media/typescript.a6305a73.svg": "/portfolio/static/media/typescript.a6305a73.svg"
+    "static/media/typescript.a6305a73.svg": "/portfolio/static/media/typescript.a6305a73.svg",
+    "static/media/weather_app.ce13d379.PNG": "/portfolio/static/media/weather_app.ce13d379.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
-    "static/js/2.0f3abe12.chunk.js",
+    "static/js/2.d912b729.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.a3b385cc.chunk.js"
+    "static/js/main.059e5bfc.chunk.js"
   ]
 }

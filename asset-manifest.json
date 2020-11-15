@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.059e5bfc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.059e5bfc.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.d9759d31.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d9759d31.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
-    "static/js/2.d912b729.chunk.js": "/portfolio/static/js/2.d912b729.chunk.js",
-    "static/js/2.d912b729.chunk.js.map": "/portfolio/static/js/2.d912b729.chunk.js.map",
+    "static/js/2.02c8f9eb.chunk.js": "/portfolio/static/js/2.02c8f9eb.chunk.js",
+    "static/js/2.02c8f9eb.chunk.js.map": "/portfolio/static/js/2.02c8f9eb.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.9253c6c4.chunk.css.map": "/portfolio/static/css/main.9253c6c4.chunk.css.map",
-    "static/js/2.d912b729.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d912b729.chunk.js.LICENSE.txt",
+    "static/js/2.02c8f9eb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02c8f9eb.chunk.js.LICENSE.txt",
     "static/media/1.ae8ebf5a.jpg": "/portfolio/static/media/1.ae8ebf5a.jpg",
     "static/media/4.2541860e.jpg": "/portfolio/static/media/4.2541860e.jpg",
     "static/media/7.c45a9bbf.jpg": "/portfolio/static/media/7.c45a9bbf.jpg",
@@ -22,6 +22,7 @@
     "static/media/chess.e71d7550.PNG": "/portfolio/static/media/chess.e71d7550.PNG",
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
     "static/media/express.75fff9be.svg": "/portfolio/static/media/express.75fff9be.svg",
+    "static/media/firebase-icon.82a35fc0.svg": "/portfolio/static/media/firebase-icon.82a35fc0.svg",
     "static/media/git-icon.c60b7e5a.svg": "/portfolio/static/media/git-icon.c60b7e5a.svg",
     "static/media/github.740db6be.svg": "/portfolio/static/media/github.740db6be.svg",
     "static/media/hangman_game.7ecbf7b3.PNG": "/portfolio/static/media/hangman_game.7ecbf7b3.PNG",
@@ -44,6 +45,7 @@
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
     "static/media/sign.bf69343a.jpg": "/portfolio/static/media/sign.bf69343a.jpg",
+    "static/media/slack-clone.fa614246.PNG": "/portfolio/static/media/slack-clone.fa614246.PNG",
     "static/media/styled-components.2e00d138.svg": "/portfolio/static/media/styled-components.2e00d138.svg",
     "static/media/tic-tac-toe.52ee5396.PNG": "/portfolio/static/media/tic-tac-toe.52ee5396.PNG",
     "static/media/to-do_list.6b2a85d0.PNG": "/portfolio/static/media/to-do_list.6b2a85d0.PNG",
@@ -53,8 +55,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
-    "static/js/2.d912b729.chunk.js",
+    "static/js/2.02c8f9eb.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.059e5bfc.chunk.js"
+    "static/js/main.d9759d31.chunk.js"
   ]
 }

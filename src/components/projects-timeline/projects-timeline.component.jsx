@@ -12,6 +12,7 @@ import L_NewyorkTimesNewspaper from "../../assets/img/projects/newyork_times_ene
 import L_TicTacToe from "../../assets/img/projects/tic-tac-toe.PNG";
 import L_Portfolio from "../../assets/img/projects/portfolio.PNG";
 import L_WeatherApp from "../../assets/img/projects/weather_app.PNG";
+import L_SlackClone from "../../assets/img/projects/slack-clone.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -31,6 +32,8 @@ import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
+import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -41,6 +44,129 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+
+        {/* Project: Slack Clone with firebase */}
+        <ImageEvent
+            date="15/11/2020"
+            className="text-center"
+            text="React Slack Clone with Firebase"
+            src={L_SlackClone}
+            alt="React Slack Clone with Firebase"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a Slack Clone in React JS (Realtime chat app using Firebase)
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Google Authentication</li>
+                          <li>Real time chat using Firebase</li>
+                          <li>Use of React Router to switch between slacks</li>
+                          <li>Use of Material UI for frontend design</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>  
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material UI
+                            </span>
+                          </li>                
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://slack-clone-msg.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/slack-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
 
         {/* Project: React Weather App */}
         <ImageEvent

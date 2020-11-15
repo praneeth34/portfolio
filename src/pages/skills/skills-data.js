@@ -19,6 +19,7 @@ import L_AWS from "../../assets/img/skills/aws.svg";
 import L_QGIS from "../../assets/img/skills/qgis-icon.svg";
 import L_ARCGIS from "../../assets/img/skills/Esri-logo-vector-01.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
 
 export const skills = {
   frontend: [
@@ -145,6 +146,12 @@ export const skills = {
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
   ],
   versionControl: [

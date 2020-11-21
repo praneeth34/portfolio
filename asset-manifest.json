@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.d9759d31.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d9759d31.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7badccf3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7badccf3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
-    "static/js/2.02c8f9eb.chunk.js": "/portfolio/static/js/2.02c8f9eb.chunk.js",
-    "static/js/2.02c8f9eb.chunk.js.map": "/portfolio/static/js/2.02c8f9eb.chunk.js.map",
+    "static/js/2.db44a1fc.chunk.js": "/portfolio/static/js/2.db44a1fc.chunk.js",
+    "static/js/2.db44a1fc.chunk.js.map": "/portfolio/static/js/2.db44a1fc.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.9253c6c4.chunk.css.map": "/portfolio/static/css/main.9253c6c4.chunk.css.map",
-    "static/js/2.02c8f9eb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02c8f9eb.chunk.js.LICENSE.txt",
+    "static/js/2.db44a1fc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.db44a1fc.chunk.js.LICENSE.txt",
     "static/media/1.ae8ebf5a.jpg": "/portfolio/static/media/1.ae8ebf5a.jpg",
     "static/media/4.2541860e.jpg": "/portfolio/static/media/4.2541860e.jpg",
     "static/media/7.c45a9bbf.jpg": "/portfolio/static/media/7.c45a9bbf.jpg",
@@ -28,6 +28,7 @@
     "static/media/hangman_game.7ecbf7b3.PNG": "/portfolio/static/media/hangman_game.7ecbf7b3.PNG",
     "static/media/heroku.73be03b3.svg": "/portfolio/static/media/heroku.73be03b3.svg",
     "static/media/html-5.821ba738.svg": "/portfolio/static/media/html-5.821ba738.svg",
+    "static/media/instagram_clone.2e09423e.PNG": "/portfolio/static/media/instagram_clone.2e09423e.PNG",
     "static/media/javascript.ba40d6a9.svg": "/portfolio/static/media/javascript.ba40d6a9.svg",
     "static/media/jwtio-json-web-token.d33657fb.svg": "/portfolio/static/media/jwtio-json-web-token.d33657fb.svg",
     "static/media/login.b4974d16.PNG": "/portfolio/static/media/login.b4974d16.PNG",
@@ -55,8 +56,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
-    "static/js/2.02c8f9eb.chunk.js",
+    "static/js/2.db44a1fc.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.d9759d31.chunk.js"
+    "static/js/main.7badccf3.chunk.js"
   ]
 }

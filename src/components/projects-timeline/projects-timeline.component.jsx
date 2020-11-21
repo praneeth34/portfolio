@@ -13,6 +13,7 @@ import L_TicTacToe from "../../assets/img/projects/tic-tac-toe.PNG";
 import L_Portfolio from "../../assets/img/projects/portfolio.PNG";
 import L_WeatherApp from "../../assets/img/projects/weather_app.PNG";
 import L_SlackClone from "../../assets/img/projects/slack-clone.PNG";
+import L_InstagramClone from "../../assets/img/projects/instagram_clone.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -44,6 +45,120 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+
+          {/* Project: Instagram Clone with firebase */}
+        <ImageEvent
+            date="15/11/2020"
+            className="text-center"
+            text="React Instagram Clone with Firebase"
+            src={L_InstagramClone}
+            alt="React instagram Clone with Firebase"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a instagram Clone in React JS, firebase authentication and cloud firestore for real time post and comments.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Handle authentication with Firebase</li>
+                          <li>React app with Firebase Hosting </li>
+                          <li>Upload images to Firebase Storage and use them on your site!</li>
+                          <li>Real-time database with Firebase’s Firestore</li>
+                          <li>Comments to Instagram Posts</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_FIREBASE}
+                                alt="Firebase"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Firebase
+                            </span>
+                          </li>  
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material UI
+                            </span>
+                          </li>                
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://instagram-clone-3b303.web.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/instagram-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
 
         {/* Project: Slack Clone with firebase */}
         <ImageEvent

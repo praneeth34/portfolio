@@ -14,6 +14,7 @@ import L_Portfolio from "../../assets/img/projects/portfolio.PNG";
 import L_WeatherApp from "../../assets/img/projects/weather_app.PNG";
 import L_SlackClone from "../../assets/img/projects/slack-clone.PNG";
 import L_InstagramClone from "../../assets/img/projects/instagram_clone.PNG";
+import L_Covid19 from "../../assets/img/projects/covid_tracker.PNG";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
@@ -35,6 +36,9 @@ import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
+import L_CHARTJS from "../../assets/img/skills/chartjs-logo.svg";
+import L_DISEASESH from "../../assets/img/skills/disease-sh.svg";
+import L_REACT_LEAFLET from "../../assets/img/skills/react-leaflet.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -46,9 +50,143 @@ const TimeLine = () => {
       <Timeline>
         <Events>
 
+          {/* Project: Covid-19 Tracker */}
+          <ImageEvent
+            date="21/11/2020"
+            className="text-center"
+            text="Covid-19 Tracker"
+            src={L_Covid19}
+            alt="Covid-19 Tracker"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Covid19 Tracker using disease.sh and React.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Live Covid19 data from disease.sh API</li>
+                          <li>Map using React-leaflet</li>
+                          <li>Live graph using ChartJS</li>
+                          <li>Responsive Design and hosted using netlify</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_DISEASESH}
+                                alt="Disease.sh"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Disease.sh
+                            </span>
+                          </li>  
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material UI
+                            </span>
+                          </li>                
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CHARTJS}
+                                alt="React-chartjs-2"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React-Chartjs-2
+                            </span>
+                          </li>                
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_LEAFLET}
+                                alt="React-leaflet"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React-Leaflet
+                            </span>
+                          </li>                
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://affectionate-liskov-d1a338.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/Covid-19-tracker"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
           {/* Project: Instagram Clone with firebase */}
         <ImageEvent
-            date="15/11/2020"
+            date="21/11/2020"
             className="text-center"
             text="React Instagram Clone with Firebase"
             src={L_InstagramClone}

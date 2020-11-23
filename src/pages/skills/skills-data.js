@@ -20,6 +20,10 @@ import L_QGIS from "../../assets/img/skills/qgis-icon.svg";
 import L_ARCGIS from "../../assets/img/skills/Esri-logo-vector-01.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
+import L_JWT from "../../assets/img/skills/jwtio-json-web-token.svg";
+import L_CHARTJS from "../../assets/img/skills/chartjs-logo.svg";
+import L_DISEASESH from "../../assets/img/skills/disease-sh.PNG";
+import L_REACT_LEAFLET from "../../assets/img/skills/react-leaflet.PNG";
 
 export const skills = {
   frontend: [
@@ -79,9 +83,27 @@ export const skills = {
     },
     {
       link: "https://styled-components.com/",
-      imgAltText: "styled-components",
+      imgAltText: "Styled-components",
       imgSrc: L_STYLED_COMPONENTS,
-      skillName: "styled-components",
+      skillName: "Styled-components",
+    },
+    {
+      link: "https://www.chartjs.org/",
+      imgAltText: "React-Chartjs-2",
+      imgSrc: L_CHARTJS,
+      skillName: "React-Chartjs-2",
+    },
+    {
+      link: "https://react-leaflet.js.org/",
+      imgAltText: "React-Leaflet",
+      imgSrc: L_REACT_LEAFLET,
+      skillName: "React-Leaflet",
+    },
+    {
+      link: "https://jwt.io/",
+      imgAltText: "JsonWebToken",
+      imgSrc: L_JWT,
+      skillName: "JsonWebToken",
     },
     
   ],
@@ -118,6 +140,12 @@ export const skills = {
         imgAltText: "GitHub Pages",
         imgSrc: L_GITHUB_PAGES,
         skillName: "GitHub Pages",
+      },
+      {
+        link: "https://firebase.google.com/",
+        imgAltText: "Firebase",
+        imgSrc: L_FIREBASE,
+        skillName: "Firebase",
       },
   ],
   programmingLanguages: [

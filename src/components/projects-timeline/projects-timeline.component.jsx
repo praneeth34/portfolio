@@ -37,8 +37,8 @@ import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg";
 import L_REACT_ROUTER from "../../assets/img/skills/react-router.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
 import L_CHARTJS from "../../assets/img/skills/chartjs-logo.svg";
-import L_DISEASESH from "../../assets/img/skills/disease-sh.svg";
-import L_REACT_LEAFLET from "../../assets/img/skills/react-leaflet.svg";
+import L_DISEASESH from "../../assets/img/skills/disease-sh.PNG";
+import L_REACT_LEAFLET from "../../assets/img/skills/react-leaflet.PNG";
 
 
 import "./projects-timeline.styles.css";
@@ -52,7 +52,7 @@ const TimeLine = () => {
 
           {/* Project: Covid-19 Tracker */}
           <ImageEvent
-            date="21/11/2020"
+            date="23/11/2020"
             className="text-center"
             text="Covid-19 Tracker"
             src={L_Covid19}
@@ -77,9 +77,9 @@ const TimeLine = () => {
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Live Covid19 data from disease.sh API</li>
-                          <li>Map using React-leaflet</li>
-                          <li>Live graph using ChartJS</li>
-                          <li>Responsive Design and hosted using netlify</li>
+                          <li>Openstreetmap visualised using React-leaflet</li>
+                          <li>React-chartjs-2 for graphical data representation</li>
+                          <li>Responsive Design using Flex-box and hosted with netlify</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>

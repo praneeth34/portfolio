@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.a7a52bc6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a7a52bc6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.bc3e888d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bc3e888d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.368e56a2.chunk.js": "/portfolio/static/js/2.368e56a2.chunk.js",
@@ -23,7 +23,7 @@
     "static/media/chess.e71d7550.PNG": "/portfolio/static/media/chess.e71d7550.PNG",
     "static/media/covid_tracker.15ae4b49.PNG": "/portfolio/static/media/covid_tracker.15ae4b49.PNG",
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
-    "static/media/disease-sh.a9ea5063.svg": "/portfolio/static/media/disease-sh.a9ea5063.svg",
+    "static/media/disease-sh.cc3f7ee2.PNG": "/portfolio/static/media/disease-sh.cc3f7ee2.PNG",
     "static/media/express.75fff9be.svg": "/portfolio/static/media/express.75fff9be.svg",
     "static/media/firebase-icon.82a35fc0.svg": "/portfolio/static/media/firebase-icon.82a35fc0.svg",
     "static/media/git-icon.c60b7e5a.svg": "/portfolio/static/media/git-icon.c60b7e5a.svg",
@@ -45,7 +45,7 @@
     "static/media/profile.0240520b.jpg": "/portfolio/static/media/profile.0240520b.jpg",
     "static/media/qgis-icon.b932dc0b.svg": "/portfolio/static/media/qgis-icon.b932dc0b.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
-    "static/media/react-leaflet.ed64cfab.svg": "/portfolio/static/media/react-leaflet.ed64cfab.svg",
+    "static/media/react-leaflet.8b51d813.PNG": "/portfolio/static/media/react-leaflet.8b51d813.PNG",
     "static/media/react-router.a87b7227.svg": "/portfolio/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.368e56a2.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.a7a52bc6.chunk.js"
+    "static/js/main.bc3e888d.chunk.js"
   ]
 }

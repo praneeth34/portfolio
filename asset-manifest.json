@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.7badccf3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.7badccf3.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a7a52bc6.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a7a52bc6.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
-    "static/js/2.db44a1fc.chunk.js": "/portfolio/static/js/2.db44a1fc.chunk.js",
-    "static/js/2.db44a1fc.chunk.js.map": "/portfolio/static/js/2.db44a1fc.chunk.js.map",
+    "static/js/2.368e56a2.chunk.js": "/portfolio/static/js/2.368e56a2.chunk.js",
+    "static/js/2.368e56a2.chunk.js.map": "/portfolio/static/js/2.368e56a2.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.9253c6c4.chunk.css.map": "/portfolio/static/css/main.9253c6c4.chunk.css.map",
-    "static/js/2.db44a1fc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.db44a1fc.chunk.js.LICENSE.txt",
+    "static/js/2.368e56a2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.368e56a2.chunk.js.LICENSE.txt",
     "static/media/1.ae8ebf5a.jpg": "/portfolio/static/media/1.ae8ebf5a.jpg",
     "static/media/4.2541860e.jpg": "/portfolio/static/media/4.2541860e.jpg",
     "static/media/7.c45a9bbf.jpg": "/portfolio/static/media/7.c45a9bbf.jpg",
@@ -19,8 +19,11 @@
     "static/media/background.webp": "/portfolio/static/media/background.f6814621.webp",
     "static/media/bootstrap-4.997c463d.svg": "/portfolio/static/media/bootstrap-4.997c463d.svg",
     "static/media/calculator.262351ed.PNG": "/portfolio/static/media/calculator.262351ed.PNG",
+    "static/media/chartjs-logo.609a2dc9.svg": "/portfolio/static/media/chartjs-logo.609a2dc9.svg",
     "static/media/chess.e71d7550.PNG": "/portfolio/static/media/chess.e71d7550.PNG",
+    "static/media/covid_tracker.15ae4b49.PNG": "/portfolio/static/media/covid_tracker.15ae4b49.PNG",
     "static/media/css3.8fba365c.svg": "/portfolio/static/media/css3.8fba365c.svg",
+    "static/media/disease-sh.a9ea5063.svg": "/portfolio/static/media/disease-sh.a9ea5063.svg",
     "static/media/express.75fff9be.svg": "/portfolio/static/media/express.75fff9be.svg",
     "static/media/firebase-icon.82a35fc0.svg": "/portfolio/static/media/firebase-icon.82a35fc0.svg",
     "static/media/git-icon.c60b7e5a.svg": "/portfolio/static/media/git-icon.c60b7e5a.svg",
@@ -42,6 +45,7 @@
     "static/media/profile.0240520b.jpg": "/portfolio/static/media/profile.0240520b.jpg",
     "static/media/qgis-icon.b932dc0b.svg": "/portfolio/static/media/qgis-icon.b932dc0b.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
+    "static/media/react-leaflet.ed64cfab.svg": "/portfolio/static/media/react-leaflet.ed64cfab.svg",
     "static/media/react-router.a87b7227.svg": "/portfolio/static/media/react-router.a87b7227.svg",
     "static/media/react.add74742.svg": "/portfolio/static/media/react.add74742.svg",
     "static/media/redux.0e4fb1c8.svg": "/portfolio/static/media/redux.0e4fb1c8.svg",
@@ -56,8 +60,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9adcde90.js",
-    "static/js/2.db44a1fc.chunk.js",
+    "static/js/2.368e56a2.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.7badccf3.chunk.js"
+    "static/js/main.a7a52bc6.chunk.js"
   ]
 }

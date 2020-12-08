@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.9253c6c4.chunk.css",
-    "main.js": "/portfolio/static/js/main.bc3e888d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bc3e888d.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.472ff6eb.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.472ff6eb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
     "static/js/2.368e56a2.chunk.js": "/portfolio/static/js/2.368e56a2.chunk.js",
@@ -14,6 +14,7 @@
     "static/media/4.2541860e.jpg": "/portfolio/static/media/4.2541860e.jpg",
     "static/media/7.c45a9bbf.jpg": "/portfolio/static/media/7.c45a9bbf.jpg",
     "static/media/Esri-logo-vector-01.c5a8ff94.svg": "/portfolio/static/media/Esri-logo-vector-01.c5a8ff94.svg",
+    "static/media/GoogleClone.95a67186.PNG": "/portfolio/static/media/GoogleClone.95a67186.PNG",
     "static/media/aws.8a708a0e.svg": "/portfolio/static/media/aws.8a708a0e.svg",
     "static/media/contact-form.styles.css": "/portfolio/static/media/background.48c0b661.webp",
     "static/media/background.webp": "/portfolio/static/media/background.f6814621.webp",
@@ -41,7 +42,6 @@
     "static/media/mysql.822ba7d7.svg": "/portfolio/static/media/mysql.822ba7d7.svg",
     "static/media/newyork_times_enewspaper.aeb0fb38.PNG": "/portfolio/static/media/newyork_times_enewspaper.aeb0fb38.PNG",
     "static/media/nodejs.52cbf9a8.svg": "/portfolio/static/media/nodejs.52cbf9a8.svg",
-    "static/media/portfolio.774ee61d.PNG": "/portfolio/static/media/portfolio.774ee61d.PNG",
     "static/media/profile.0240520b.jpg": "/portfolio/static/media/profile.0240520b.jpg",
     "static/media/qgis-icon.b932dc0b.svg": "/portfolio/static/media/qgis-icon.b932dc0b.svg",
     "static/media/react-bootstrap.534ba574.svg": "/portfolio/static/media/react-bootstrap.534ba574.svg",
@@ -62,6 +62,6 @@
     "static/js/runtime-main.9adcde90.js",
     "static/js/2.368e56a2.chunk.js",
     "static/css/main.9253c6c4.chunk.css",
-    "static/js/main.bc3e888d.chunk.js"
+    "static/js/main.472ff6eb.chunk.js"
   ]
 }

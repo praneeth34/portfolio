@@ -10,7 +10,7 @@ import L_HangmanGame from "../../assets/img/projects/hangman_game.PNG";
 import L_Minesweeper from "../../assets/img/projects/minesweeper.PNG";
 import L_NewyorkTimesNewspaper from "../../assets/img/projects/newyork_times_enewspaper.PNG";
 import L_TicTacToe from "../../assets/img/projects/tic-tac-toe.PNG";
-import L_Portfolio from "../../assets/img/projects/portfolio.PNG";
+import L_GoogleClone from "../../assets/img/projects/GoogleClone.PNG";
 import L_WeatherApp from "../../assets/img/projects/weather_app.PNG";
 import L_SlackClone from "../../assets/img/projects/slack-clone.PNG";
 import L_InstagramClone from "../../assets/img/projects/instagram_clone.PNG";
@@ -49,6 +49,118 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
+
+          {/* Project: Google Clone using React */}
+          <ImageEvent
+            date="06/12/2020"
+            className="text-center"
+            text="Google Clone"
+            src={L_GoogleClone}
+            alt="Google Clone"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> Google Clone built with React and custom hook to search using Google API.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Custom built hook to search through the web with Google API</li>
+                          <li>Material UI for the icons</li>
+                          <li>React-router for navigating through pages</li>
+                          <li>Responsive Design using Flex-box and hosted with netlify</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_HTML5}
+                                alt="HTML 5"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              HTML5
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="Bootstrap"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT_ROUTER}
+                                alt="React-Router"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              React Router
+                            </span>
+                          </li>  
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MATERIALUI}
+                                alt="Material UI"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Material UI
+                            </span>
+                          </li>                      
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://google-clone-reactjs.netlify.app/"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+                <UrlButton
+                  href="https://github.com/praneeth34/Google-clone"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
 
           {/* Project: Covid-19 Tracker */}
           <ImageEvent
@@ -511,119 +623,6 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-        {/* Project: Portfolio using React */}
-        <ImageEvent
-            date="1/11/2020"
-            className="text-center"
-            text="React Portfolio"
-            src={L_Portfolio}
-            alt="React Porfolio"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This is a Portfolio created using react which showcases part of me digitally
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Detailed information with live projects</li>
-                          <li>Powered by React and React-bootstrap</li>
-                          <li>Hosted using Github pages</li>
-                          <li>Responsive Design</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT_BOOTSTRAP}
-                                alt="Bootstrap"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              React Bootstrap
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_STYLED_COMPONENTS}
-                                alt="Bootstrap"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Styled Components
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GITHUB_PAGES}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GitHub Pages
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://praneeth34.github.io/portfolio"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/praneeth34/portfolio"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
           {/* Project: Tic-Tac-Toe  */}
         <ImageEvent
             date="27/10/2020"
@@ -825,7 +824,7 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a simple login page which directs to a dashboard upon email verification.
+                        <strong>Description:</strong> This is a simple login page which directs to a dashboard upon email verification using MERN.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
